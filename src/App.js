@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Isesion from './components/Isesion.jsx';
+import Administrador from './components/Administrador.jsx';
+import Sucursal from './components/Sucursal.jsx';
+import Casa from './components/Casa.jsx'
+import Almacenamiento from './components/Almacenamiento';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Isesion /> */}
+      {/* <Administrador /> */}
+      {/* <Sucursal /> */}
+      {/* <Casa /> */}
+      <Almacenamiento />
     </div>
   );
 }
